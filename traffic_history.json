@@ -1,5 +1,9 @@
 {
     "views": {
+        "2026-07-07": {
+            "count": 9,
+            "uniques": 1
+        },
         "2026-07-08": {
             "count": 0,
             "uniques": 0
@@ -55,13 +59,13 @@
         "2026-07-21": {
             "count": 0,
             "uniques": 0
-        },
-        "2026-07-07": {
-            "count": 9,
-            "uniques": 1
         }
     },
     "clones": {
+        "2026-07-07": {
+            "count": 55,
+            "uniques": 33
+        },
         "2026-07-08": {
             "count": 5,
             "uniques": 5
@@ -117,11 +121,47 @@
         "2026-07-21": {
             "count": 0,
             "uniques": 0
-        },
-        "2026-07-07": {
-            "count": 55,
-            "uniques": 33
         }
     },
-    "last_updated": "2026-07-21T22:49:34.321415Z"
+    "last_updated": "2026-07-21T23:04:33.691558Z",
+    "top_referrers": [
+        {
+            "referrer": "github.com",
+            "count": 1,
+            "uniques": 1
+        }
+    ],
+    "popular_paths": [
+        {
+            "path": "/NicholasJLucenti/Data-Analytics",
+            "title": "Overview",
+            "count": 6,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/tree/main",
+            "title": "/tree/main",
+            "count": 3,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/community/license/new",
+            "title": "/community/license/new",
+            "count": 2,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/new/main",
+            "title": "/new/main",
+            "count": 2,
+            "uniques": 1
+        }
+    ],
+    "repository_stats": {
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "size_kb": 131
+    }
 }
