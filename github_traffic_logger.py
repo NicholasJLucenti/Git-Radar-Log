@@ -6,8 +6,8 @@ from datetime import datetime
 # --- CONFIGURATION ---
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 # Replace these with the owner and name of the target repository you want to track
-TARGET_REPO_OWNER = "YOUR_GITHUB_USERNAME"
-TARGET_REPO_NAME = "YOUR_TARGET_REPO_NAME"
+TARGET_REPO_OWNER = "NicholasJLucenti"
+TARGET_REPO_NAME = "Git-Radar-Log"
 OUTPUT_FILE = "traffic_history.json"
 
 if not GITHUB_TOKEN:
