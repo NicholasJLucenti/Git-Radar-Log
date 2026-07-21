@@ -5,6 +5,8 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+# Target repository details to monitor
 TARGET_REPO_OWNER = "NicholasJLucenti"
 TARGET_REPO_NAME = "Data-Analytics"
 OUTPUT_FILE = "traffic_history.json"
@@ -36,13 +38,13 @@ def load_history() -> dict:
     return {
         "views": {},
         "clones": {},
-        "top_referrers": {},
-        "popular_paths": {},
+        "top_referrers": [],
+        "popular_paths": [],
         "repository_stats": {}
     }
 
 def merge_time_series(existing: dict, new_entries: list) -> dict:
-    """Merges daily traffic metrics (views/clones) and keeps dates sorted chronologically."""
+    """Merges daily traffic metrics (views/clones) and sorts dates chronologically."""
     for entry in new_entries:
         date_str = entry["timestamp"].split("T")[0]
         existing[date_str] = {
@@ -59,12 +61,12 @@ def main():
     clones_resp = fetch_api("traffic/clones")
     referrers_resp = fetch_api("traffic/popular/referrers")
     paths_resp = fetch_api("traffic/popular/paths")
-    repo_info = fetch_api("")  # General repo details
+    repo_info = fetch_api("")  # Repo snapshot
 
-    # 2. Load existing log
+    # 2. Load existing history
     history = load_history()
 
-    # 3. Merge time-series data (Views & Clones)
+    # 3. Merge time-series data
     history["views"] = merge_time_series(history.get("views", {}), views_resp.get("views", []))
     history["clones"] = merge_time_series(history.get("clones", {}), clones_resp.get("clones", []))
 
@@ -93,7 +95,7 @@ def main():
     history["repository_stats"] = {
         "stargazers_count": repo_info.get("stargazers_count", 0),
         "forks_count": repo_info.get("forks_count", 0),
-        "subscribers_count": repo_info.get("subscribers_count", 0),  # Watchers
+        "subscribers_count": repo_info.get("subscribers_count", 0),
         "open_issues_count": repo_info.get("open_issues_count", 0),
         "size_kb": repo_info.get("size", 0)
     }
