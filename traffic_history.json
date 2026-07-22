@@ -57,8 +57,8 @@
             "uniques": 0
         },
         "2026-07-21": {
-            "count": 0,
-            "uniques": 0
+            "count": 23,
+            "uniques": 2
         }
     },
     "clones": {
@@ -123,11 +123,11 @@
             "uniques": 0
         }
     },
-    "last_updated": "2026-07-22T02:49:23.187431Z",
+    "last_updated": "2026-07-22T18:38:28.708330Z",
     "top_referrers": [
         {
             "referrer": "github.com",
-            "count": 1,
+            "count": 18,
             "uniques": 1
         }
     ],
@@ -135,25 +135,49 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics",
             "title": "Overview",
+            "count": 11,
+            "uniques": 2
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/graphs/traffic",
+            "title": "/graphs/traffic",
             "count": 6,
             "uniques": 1
         },
         {
-            "path": "/NicholasJLucenti/Data-Analytics/tree/main",
-            "title": "/tree/main",
-            "count": 3,
+            "path": "/NicholasJLucenti/Data-Analytics/pulse",
+            "title": "/pulse",
+            "count": 4,
             "uniques": 1
         },
         {
-            "path": "/NicholasJLucenti/Data-Analytics/community/license/new",
-            "title": "/community/license/new",
+            "path": "/NicholasJLucenti/Data-Analytics/graphs/commit-activity",
+            "title": "/graphs/commit-activity",
             "count": 2,
             "uniques": 1
         },
         {
-            "path": "/NicholasJLucenti/Data-Analytics/new/main",
-            "title": "/new/main",
-            "count": 2,
+            "path": "/NicholasJLucenti/Data-Analytics/activity",
+            "title": "/activity",
+            "count": 1,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/forks",
+            "title": "/forks",
+            "count": 1,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/graphs/community",
+            "title": "/graphs/community",
+            "count": 1,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/watchers",
+            "title": "/watchers",
+            "count": 1,
             "uniques": 1
         }
     ],
