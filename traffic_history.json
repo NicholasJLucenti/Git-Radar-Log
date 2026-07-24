@@ -59,6 +59,10 @@
         "2026-07-21": {
             "count": 23,
             "uniques": 2
+        },
+        "2026-07-22": {
+            "count": 10,
+            "uniques": 2
         }
     },
     "clones": {
@@ -121,13 +125,22 @@
         "2026-07-21": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-07-22": {
+            "count": 1,
+            "uniques": 1
         }
     },
-    "last_updated": "2026-07-23T02:55:21.566638Z",
+    "last_updated": "2026-07-24T02:49:54.887743Z",
     "top_referrers": [
         {
             "referrer": "github.com",
-            "count": 18,
+            "count": 26,
+            "uniques": 1
+        },
+        {
+            "referrer": "instagram.com",
+            "count": 1,
             "uniques": 1
         }
     ],
@@ -135,19 +148,19 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics",
             "title": "Overview",
-            "count": 11,
-            "uniques": 2
+            "count": 16,
+            "uniques": 3
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/traffic",
             "title": "/graphs/traffic",
-            "count": 6,
+            "count": 8,
             "uniques": 1
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/pulse",
             "title": "/pulse",
-            "count": 4,
+            "count": 6,
             "uniques": 1
         },
         {
@@ -171,6 +184,12 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/community",
             "title": "/graphs/community",
+            "count": 1,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/security",
+            "title": "/security",
             "count": 1,
             "uniques": 1
         },
