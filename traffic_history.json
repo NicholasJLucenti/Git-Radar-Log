@@ -115,6 +115,10 @@
         "2026-08-04": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-08-05": {
+            "count": 2,
+            "uniques": 1
         }
     },
     "clones": {
@@ -233,19 +237,23 @@
         "2026-08-04": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-08-05": {
+            "count": 0,
+            "uniques": 0
         }
     },
-    "last_updated": "2026-08-06T02:43:50.129931Z",
+    "last_updated": "2026-08-07T02:45:59.787158Z",
     "top_referrers": [
         {
             "referrer": "github.com",
-            "count": 69,
+            "count": 63,
             "uniques": 1
         },
         {
             "referrer": "instagram.com",
-            "count": 3,
-            "uniques": 3
+            "count": 2,
+            "uniques": 2
         },
         {
             "referrer": "l.instagram.com",
@@ -257,19 +265,19 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics",
             "title": "Overview",
-            "count": 44,
-            "uniques": 7
+            "count": 40,
+            "uniques": 6
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/pulse",
             "title": "/pulse",
-            "count": 18,
+            "count": 17,
             "uniques": 2
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/traffic",
             "title": "/graphs/traffic",
-            "count": 18,
+            "count": 16,
             "uniques": 1
         },
         {
@@ -293,12 +301,6 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/commit-activity",
             "title": "/graphs/commit-activity",
-            "count": 1,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/security",
-            "title": "/security",
             "count": 1,
             "uniques": 1
         },
