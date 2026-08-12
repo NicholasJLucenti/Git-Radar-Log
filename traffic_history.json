@@ -135,6 +135,10 @@
         "2026-08-09": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-08-10": {
+            "count": 0,
+            "uniques": 0
         }
     },
     "clones": {
@@ -273,13 +277,17 @@
         "2026-08-09": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-08-10": {
+            "count": 0,
+            "uniques": 0
         }
     },
-    "last_updated": "2026-08-11T01:53:17.955466Z",
+    "last_updated": "2026-08-12T02:05:56.089734Z",
     "top_referrers": [
         {
             "referrer": "github.com",
-            "count": 56,
+            "count": 43,
             "uniques": 1
         },
         {
@@ -297,37 +305,19 @@
         {
             "path": "/NicholasJLucenti/Data-Analytics",
             "title": "Overview",
-            "count": 36,
-            "uniques": 6
+            "count": 29,
+            "uniques": 5
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/pulse",
             "title": "/pulse",
-            "count": 16,
+            "count": 14,
             "uniques": 2
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/traffic",
             "title": "/graphs/traffic",
-            "count": 14,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/branches",
-            "title": "/branches",
-            "count": 2,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/branches/stale",
-            "title": "/branches/stale",
-            "count": 1,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/branches/yours",
-            "title": "/branches/yours",
-            "count": 1,
+            "count": 12,
             "uniques": 1
         },
         {
