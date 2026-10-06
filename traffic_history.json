@@ -355,6 +355,10 @@
         "2026-10-03": {
             "count": 4,
             "uniques": 1
+        },
+        "2026-10-04": {
+            "count": 3,
+            "uniques": 1
         }
     },
     "clones": {
@@ -713,52 +717,38 @@
         "2026-10-03": {
             "count": 0,
             "uniques": 0
+        },
+        "2026-10-04": {
+            "count": 6,
+            "uniques": 2
         }
     },
-    "last_updated": "2026-10-05T04:40:23.526544Z",
+    "last_updated": "2026-10-06T05:26:43.545563Z",
     "top_referrers": [
         {
             "referrer": "github.com",
-            "count": 41,
-            "uniques": 2
+            "count": 39,
+            "uniques": 1
         }
     ],
     "popular_paths": [
         {
             "path": "/NicholasJLucenti/Data-Analytics/graphs/traffic",
             "title": "/graphs/traffic",
-            "count": 41,
+            "count": 42,
             "uniques": 1
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics",
             "title": "Overview",
-            "count": 38,
-            "uniques": 9
+            "count": 36,
+            "uniques": 8
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/pulse",
             "title": "/pulse",
-            "count": 28,
-            "uniques": 3
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/community",
-            "title": "/community",
-            "count": 2,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/graphs/contributors",
-            "title": "/graphs/contributors",
-            "count": 2,
-            "uniques": 1
-        },
-        {
-            "path": "/NicholasJLucenti/Data-Analytics/actions",
-            "title": "/actions",
-            "count": 1,
-            "uniques": 1
+            "count": 23,
+            "uniques": 2
         },
         {
             "path": "/NicholasJLucenti/Data-Analytics/blob/main/benchmarking/classify_dynamics.m",
@@ -773,14 +763,20 @@
             "uniques": 1
         },
         {
-            "path": "/NicholasJLucenti/Data-Analytics/graphs/code-frequency",
-            "title": "/graphs/code-frequency",
+            "path": "/NicholasJLucenti/Data-Analytics/stargazers",
+            "title": "/stargazers",
             "count": 1,
             "uniques": 1
         },
         {
-            "path": "/NicholasJLucenti/Data-Analytics/graphs/commit-activity",
-            "title": "/graphs/commit-activity",
+            "path": "/NicholasJLucenti/Data-Analytics/tree/main/benchmarking",
+            "title": "/tree/main/benchmarking",
+            "count": 1,
+            "uniques": 1
+        },
+        {
+            "path": "/NicholasJLucenti/Data-Analytics/watchers",
+            "title": "/watchers",
             "count": 1,
             "uniques": 1
         }
